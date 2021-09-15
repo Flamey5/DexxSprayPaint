@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+body {
+  color: white;
+  background-color: black;
+  background-image: url("backgroundimg.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.logo-design {
+  background: #4b4845; 
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  background-image: linear-gradient(45deg,#60efff, #0061ff );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  
+}
+
+.nav-bar {
+  background: #4b4845;
   }
+
+.nav-link {
+  color: white;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1 {
+  font-family: 'Handlee', cursive;
+  color: white;
+}
+h2 {
+  padding-bottom: 40px;
+  border-bottom: 1px ridge;
+}
+
+#welcomeGreeting {
+  margin-left: auto;
+  border-bottom: 1px ridge;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.row-content {
+  padding: 50px 0;
+  min-height: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#artquote {
+  font-size: 35px;
+  font-family: cursive;
+  color: rgb(233, 220, 220);
+  
+  
 }
+
+.smaller {
+  font-size: 25px;
+}
+
+
+.crd-info {
+  margin-top: 100px;
+  
+}
+
+#exampleModal {
+  color: black;
+}
+
+
+.galleryImage {
+ 
+  background-size: 100px;
+}
+
+.card {
+  color: black;
+  width: 325px;
+}
+
+.row-content-about {
+  padding: 50px 0;
+  
+  min-height: 200px; }
+
+  #dexxintro {
+      
+      background-color: rgba(8, 7, 7, 0.5);
+      font-family: 'Architects Daughter', cursive;
+      font-size: 23px;
+      margin-top: 100px;
+      margin-bottom: 100px;
+  }
+
+
+  #footer {
+    background-color: rgba(8, 7, 7, 0.5);
+}
+
+#footertext {
+  font-size: large;
+  font-weight: 700;
+  color:#4b4845;
+  font-family: cursive;
+}
+
+.card {
+  margin-top: 100px;
+  margin-right: 50px;
+}
+.cardTitle {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.socialBtn {
+  margin-left: 5px;
+}
+
+.cardBody {
+  display: flex;
+  justify-content:space-between;
+}
+
+
+ 
+
+ 
