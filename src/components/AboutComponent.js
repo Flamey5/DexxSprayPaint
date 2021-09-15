@@ -5,7 +5,7 @@ import React, { Component } from 'react';
     render() {
         return (
             <div className="container" >
-            <div className="row row-content-about align-items-center" id="dexxintro">
+            <div className="row row-content-about align-items-center" id="dexxAbout">
               <div className="col-sm-12">
                 <div className="media d-flex p-5">
                   <img src="/assets/images/profile-pic.jpg" alt="" id="profile-pic" width="300px" className="d-flex img-thumbnail"/>

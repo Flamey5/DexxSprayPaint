@@ -2,36 +2,27 @@ import React from 'react';
 
 function Footer(props) {
     return (
-        <footer id="footer" >
-            <div className="container-fluid  mt-5">
-
-                {/*  Socail Media */}
-                <div className="row justify-content-center border-5  p-2">
-                    <div className="col">
-                        <img src="/assets/images/dexx-logo.jpg" width="125px" alt="" />
+        <footer className="site-footer" >
+            <div className="container p-3">
+                <div className="row d-flex justify-content-between">
+                    <div className="col-6 col-sm-3 ">
+                         <img src="/assets/images/dexx-logo.jpg" width="125px" alt="dexx logo" /> 
                     </div>
-                    <div className="col mt-4">
+                    <div className="col-6 col-sm-3 text-center mt-2">
                         <h4>Contact</h4>
-                        <p><i className="fa fa-envelope"></i>Dexxspraypaintart@gmail.com </p>
-                        <p><i className="fa fa-phone"></i> 1-300-900-8888</p>
+                        <a role="button" className="btn btn-link"  href="mailto:notreal@notreal.co"><i className="fa fa-envelope-o" />
+                         Dexxspraypaintart@gmail.com </a>
                     </div>
-                    <div className="col-4 mt-4 mb-4 ">
-                        <h4>Follow</h4>
-                        <a className="btn btn-primary socialBtn " 
-                            href="https://www.facebook.com/david.yoder.31105" role="button">
-                            <i className="fa fa-facebook-f fa-lg"></i></a>
-                        <a className="btn btn-primary socialBtn" 
-                            href="https://www.instagram.com/dexx_spraypaintart/" role="button">
-                            <i className="fa fa-instagram fa-lg"></i></a>
-
-                        <a className="btn btn-primary socialBtn"  href="https://linktr.ee/dexxspraypaintart"
-                            role="button">
-                            <i className="fa fa-linkedin fa-lg"></i></a>
-
-                        <a className="btn btn-primary socialBtn" 
-                            href="https://www.youtube.com/channel/UCVTaYR4tgzvNXVkMw7lmQIg" role="button">
-                            <i className="fa fa-youtube fa-lg"></i></a>
-
+                    <div className="col-6 col-sm-3 text-center mt-2">
+                        <h5>Social</h5>
+                        <a className="btn btn-social-icon btn-instagram" href="https://www.instagram.com/dexx_spraypaintart/">
+                             <i className="fa fa-instagram" /></a>{' '}
+                        <a className="btn btn-social-icon btn-facebook" href="https://www.facebook.com/david.yoder.31105">
+                            <i className="fa fa-facebook" /></a>{' '}
+                        <a className="btn btn-social-icon btn-linkedin"href="https://linktr.ee/dexxspraypaintart"> 
+                            <i className="fa fa-linkedin" /></a>{' '}
+                        <a className="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCVTaYR4tgzvNXVkMw7lmQIg">
+                            <i className="fa fa-youtube" /></a>
                     </div>
                 </div>
             </div>

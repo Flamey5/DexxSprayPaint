@@ -26,7 +26,7 @@ class Home extends Component {
 
                 {/* Email Sign up */}
                 <form>
-                    <div id="email" className="row p-4 bg-dark">
+                    <div className="row p-4 bg-dark">
                         <div className="col col-lg-6 m-auto">
                             <div className="input-group mb-3">
                                 <label htmlfor="email"></label>

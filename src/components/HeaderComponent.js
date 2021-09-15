@@ -22,9 +22,9 @@ class Header extends Component {
     render() {
         return (
             <>
-                <Navbar className="nav-bar navbar-dark"  sticky="top" expand="md">
+                <Navbar className="nav-bar navbar-dark bg-dark"  sticky="top" expand="md">
                     <div className="container">
-                        <NavbarBrand className="logo">Dexx</NavbarBrand>
+                        <NavbarBrand className="mr-auto"><img src="/assets/images/dexx-logo.jpg" width="125px" alt="dexx logo" /> </NavbarBrand>
                         <NavbarToggler  onClick={this.toggleNav}></NavbarToggler>
                         <Collapse isOpen={this.state.isNavOpen} navbar >
                             <Nav navbar>

@@ -91,9 +91,9 @@ h2 {
   
   min-height: 200px; }
 
-  #dexxintro {
+  #dexxAbout {
       
-      background-color: rgba(8, 7, 7, 0.5);
+      background-color: rgba(59, 74, 77, 0.788);
       font-family: 'Architects Daughter', cursive;
       font-size: 23px;
       margin-top: 100px;
@@ -101,16 +101,8 @@ h2 {
   }
 
 
-  #footer {
-    background-color: rgba(8, 7, 7, 0.5);
-}
 
-#footertext {
-  font-size: large;
-  font-weight: 700;
-  color:#4b4845;
-  font-family: cursive;
-}
+
 
 .card {
   margin-top: 100px;
@@ -130,7 +122,10 @@ h2 {
   justify-content:space-between;
 }
 
-
+.btn-link {
+  color: white;
+  font-size: 17px;
+}
  
 
  
