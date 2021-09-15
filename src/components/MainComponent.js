@@ -7,10 +7,8 @@ import Home from './HomeComponent';
 import Footer from './FooterComponent';
 
 
-
-
 class Main extends Component {
-   
+
 
     render() {
         const HomePage = () => {
@@ -23,12 +21,12 @@ class Main extends Component {
         return (
             <div>
                 <Header />
-                <Switch>
-                    <Route path='/home' component={HomePage} />
-                    <Route exact path='/aboutus' component={About} />
-                    <Route exact path='/gallery' render={() => <Gallery paintings={this.props.paintings} />} />
-                    <Redirect to='/home' />
-                </Switch>
+                        <Switch>
+                            <Route path='/home' component={HomePage} />
+                            <Route exact path='/aboutus' component={About} />
+                            <Route exact path='/gallery' render={() => <Gallery paintings={this.props.paintings} />} />
+                            <Redirect to='/home' />
+                        </Switch>
                 <Footer />
             </div>
         );

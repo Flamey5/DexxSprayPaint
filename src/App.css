@@ -6,11 +6,6 @@ body {
 }
 
 
-.logo-design {
-  background: #4b4845; 
-
-}
-
 .logo {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -23,10 +18,6 @@ body {
   -moz-text-fill-color: transparent;
   
 }
-
-.nav-bar {
-  background: #4b4845;
-  }
 
 .nav-link {
   color: white;
@@ -92,17 +83,10 @@ h2 {
   min-height: 200px; }
 
   #dexxAbout {
-      
       background-color: rgba(59, 74, 77, 0.788);
       font-family: 'Architects Daughter', cursive;
-      font-size: 23px;
-      margin-top: 100px;
-      margin-bottom: 100px;
+      font-size: 25px; 
   }
-
-
-
-
 
 .card {
   margin-top: 100px;
@@ -126,6 +110,11 @@ h2 {
   color: white;
   font-size: 17px;
 }
- 
+
+#profile-pic {
+  width: 60%;
+}
+
+
 
  

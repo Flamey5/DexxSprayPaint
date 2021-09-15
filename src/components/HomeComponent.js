@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FadeTransform } from 'react-animation-components';
 
 
 class Home extends Component {
@@ -8,7 +9,13 @@ class Home extends Component {
                 <div className="container ">
                     <div className="row row-content" id="welcomeGreeting">
                         <div className="col text-center">
-                            <h1>Welcome to <span className="logo">Dexx</span> spray paint art!</h1>
+                            <FadeTransform
+                                in
+                                transformProps={{
+                                    exitTransform: 'scale(0.5) translateY(50%)'
+                                }}>
+                                <h1>Welcome to <span className="logo">Dexx</span> spray paint art!</h1>
+                            </FadeTransform>
                         </div>
                     </div>
                     <div className="row row-content justify-content-between">
