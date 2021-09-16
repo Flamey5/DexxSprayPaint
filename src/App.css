@@ -112,7 +112,8 @@ h2 {
 }
 
 #profile-pic {
-  width: 60%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 
